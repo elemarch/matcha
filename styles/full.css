@@ -1,0 +1,64 @@
+/* 
+	This css file is used for "full" screens,
+	detected as being wider than 675px.
+
+================= TABLE OF CONTENTS ================
+	menu ···································· xx
+	columns ································· xx
+*/
+
+/* declaration of variables here if needed */
+
+/*
+======================= MENU ======================= 
+*/
+#menu { 
+	margin: -50px 5px 0 0;
+	float: right;
+}
+
+#menu li { 	border-radius: 5px 5px 0 0; }
+
+/*
+====================== CONTENT ===================== 
+*/
+#content {
+	height: calc(100vh - 180px);
+	width: calc(100% - 12px);
+	overflow: scroll;
+}
+
+/*
+====================== COLUMNS ===================== 
+*/
+
+.col-3 { 
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
+
+.col-2 {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
+
+.col-middle {
+	border-right: 1px solid purple;
+	border-left: 1px solid purple;
+}
+
+/*
+================= SPECIFIC LAYOUTS ================= 
+
+>> gallery.php
+*/
+
+.photo_block {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}

@@ -1,0 +1,25 @@
+/* 
+	This css file is used for "small" screens,
+	detected as being smaller than 674px wide.
+
+================= TABLE OF CONTENTS ================
+	#menu ··································· 40
+*/
+
+/* declaration of variables here if needed */
+
+/*
+====================== BANNER ====================== 
+*/
+
+.banner {
+	background: url(../medias/src/banner.jpg) no-repeat;
+	background-position: center; 
+	background-size: cover;
+	background-color: #cfa4b8;
+	padding-top: 20px;
+}
+
+.panel-default {
+	padding: 0px 5px;
+}

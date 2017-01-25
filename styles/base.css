@@ -1,0 +1,224 @@
+/* 
+	This css file is used as base for all types
+	of sizes. See full.css and small.css for
+	further details.
+*/
+
+/*
+========== BODY ==================================== 
+*/
+
+body {
+	font-family: "Catamaran", cursive;
+    font-size: 15px;
+}
+
+/*
+========== TITLES ================================== 
+*/
+
+h1, h2, h3 {
+	font-family: "Alegreya Sans", sans-serif;
+}
+
+/*
+========== MENU ====================================
+*/
+.navbar-brand { font-family: "Alegreya Sans", sans-serif; }
+.navbar-brand > img {
+    display: inline-block;
+    height: 150%;
+    margin-right: 10px;
+    float: left;
+    margin-top: -5px;
+}
+
+.content {
+	margin-top: 100px;
+}
+
+.navbar-right { margin-right: 0px; }
+/*
+========== INDEX ===================================
+*/
+
+.banner {
+	background: url(../medias/src/banner.jpg) no-repeat;
+	background-position: left; 
+	background-size: contain;
+	background-color: #cfa4b8;
+	padding-top: 20px;
+}
+
+.panel-default {
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+}
+
+.banner input 		{	width: 100%;		}
+.banner input.btn 	{	margin-top: 10px;	}
+
+
+#section2 img {
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+#section3 {
+	background-color: #333;
+	color: white;
+}
+/*
+========== USER ====================================
+*/
+
+.user-card 			{ padding: 10px; 		}
+
+.user-card .internal {
+	padding: 20px;
+}
+
+.user-card img {
+	box-shadow: 0px 0px 20px -10px;
+	width: 100%;
+	max-width: 300px;
+}
+
+.user-card ul {
+	list-style: none;
+	padding: 0;
+}
+
+.user-card .progress {
+	height: 5px;
+	margin: 0 0 10px;
+}
+
+.float_right {
+    display: inline-block;
+    float: right;
+    margin-top: -4px;
+}
+
+.btn-like:hover    { background-color: #5cb85c; }
+.btn-dislike:hover { background-color: #d9534f; }
+
+/*
+========== TAGS ====================================
+*/
+
+.tag {
+    background: lightgray;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 3px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tag:hover{
+	background-color: #333;
+	color: white;
+}
+
+/*
+========== INPUTS ==================================
+*/
+
+textarea, input {
+	padding: 10px;
+	font-family: "Catamaran", cursive;
+    font-size: 15px;
+    color: #333;
+    border: 1px solid;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+textarea:focus, input:focus { cursor: text; 				}
+
+label {
+	margin-top: 20px;
+}
+
+input[type="file"] {
+    border: none;
+    padding: 0;
+}
+
+input[type="submit"], input[type="file"]::-webkit-file-upload-button {
+	background-color: #337ab7;
+	border: 1px solid #2e6da4;
+	color: white;
+	border-radius: 5px;
+
+}
+
+/*
+========== SELECTIZE ===============================
+*/
+
+.selectize-control.single .selectize-input {
+	font-family: "Catamaran", cursive;
+    font-size: 15px;
+    color: #333;
+    text-shadow: none;
+    background-color: #ffffff;
+    background-image: none;
+    background-repeat: none;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=true);
+    -webkit-box-shadow: none;
+    -moz-box-shadow:none;
+    box-shadow: none;
+}
+
+.tag, .selectize-control.multi .selectize-input>div {
+    color: #fff;
+    text-shadow: none;
+    background-color: #337ab7;
+    background-image: none;
+    background-image: none;
+    border: 1px solid #2e6da4;
+}
+
+/*
+========== LISTS ===================================
+*/
+
+ul, li { list-style: none; }
+
+li:before {
+	font-family: "FontAwesome";
+	margin-right: 10px;
+}
+
+/*
+========== ERRORS ==================================
+*/
+
+
+.errlist li li:before {
+    content: '\f0da';
+    color: #333333;
+}
+
+.errlist li:before {
+    content: '\f00d';
+    color: #c31a1a;
+}
+
+/*
+========== CAROUSEL ================================
+*/
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
